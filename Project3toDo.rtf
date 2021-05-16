@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww13460\viewh13000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs34 \cf0 -\strike \strikec0 use requests.get to create a .json() (dictionary) of each url\
+-select necessary columns (title, selftest, url)\
+-convert into DataFrame\strike0\striked0 \
+\
+\strike \strikec0 -concatenate title and selftest columns for each row to get one long list of strings\
+-do this for each df\strike0\striked0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \strike \strikec0 -get rid of stop words and other characters you think might be irrelevant\strike0\striked0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+-CONCATENATE BOTH DF\'92S TOGETHER BEFORE DOING TRAIN_TEST-SPLIT, RUNNING FUNCTION, VECTORIZING, AND TRYING TO FIT/SCORE YOU STUPID PHUCK :)\
+\
+-run a lemmatizer or stem to shorten words\
+-CountVectorizer each df to count how many words are in each data frame\
+\
+-run one logistic regression on Count Vectorizer data and another on Tfidf Vectorizer\
+-\
+\
+-make sure each df has a column identifying the subreddit.\
+-assign one of them to be 0 and the other to be 1\
+-concatenate both dfs into one.\
+\
+-Vectorizer again }
